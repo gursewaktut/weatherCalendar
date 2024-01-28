@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.App {
+    font-family: 'Urbanist','DM Sans', 'Work Sans','Open Sans', sans-serif;
+
+    text-align: center;
+    color: #2c3e50;
+   }
+   .App-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This separates the text and the image */
+    padding: 0 5%; /* Adjust padding as needed */
+    background-color: #FFF;
+    /* ... other styles ... */
+  }
+  
+  .App-header .header-content {
+    flex: 1;
+    text-align: left; /* Aligns the text to the left */
+    /* ... other styles ... */
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    margin-right: -100px; /* You can adjust the value as needed */
+    width: calc(100% + 100px); /* This extends the container beyond the viewport width */
+    overflow-x: hidden; /* Prevents horizontal scrollbar due to the extended width */
+    justify-content: flex-end; /* Aligns the child (image) to the right */
+    /* ... other styles ... */
+  }
+  
+  /* Adjust the image size as necessary */
+  .container img {
+    max-width: 95%;
+    max-height: 95%;
+    margin-right: -1%; /* You can adjust the value as needed */
+    height: auto;
+  }
+  
+   
+   /* .App-header {
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Urbanist';
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #1565D8;
+    background-color: #FFF;
+    padding: 4rem 0;
+   }
+   /* .home-banner-container {
+    position: relative;
+    display: flex;
+    padding-top: 3rem;
+  }
+  .home-bannerImage-container {
+    position: absolute;
+    top: -100px;
+    right: -170px;
+    z-index: -2;
+    max-width: 700px;
+  } */
+   
+   /* .App-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000;
+
+     max-width: 1200px; 
+    margin: 0 auto;
+   }
+   
+   .App-header .container img {
+     max-width: 10000px; 
+    
+    height: auto;
+   }
+     */
+   .App-header h1 {
+    /* font-family: 'DM Sans'; */
+    font-size: 2em;
+   }
+   
+   .App-header h2 {
+
+    font-size: 1.5em;
+   }
+   
+   .features ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .get-started button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .App-footer {
+    background-color: #1565D8;
+    color: #FFF; /*error*/ 
+    font-family: 'Urbanist';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+    padding: 20px;
+    /* position: fixed; */
+    bottom: 0;
+    
+    width: 100%;
+   }
+
+   /* Add styles for your navbar/header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 10px 20px;
+    width: 100%; /* Expand to entire screen width */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand img {
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+  
+  .brand a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4A74EA;
+    font-family: 'Work Sans';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center; /* Align vertically */
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content:center;
+  }
+  
+  .nav-links li {
+    margin-right: 300px;
+    /* margin-bottom: 30px; */
+    margin-top:1%;
+
+
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1em;
+    font-family: 'Work Sans';
+    font-weight: bold;
+  }
+  
+  .start{
+    padding: 8px 16px;
+    font-family: 'Urbanist';
+    background-color: #ffffff;
+    color: #1565D8;
+    border-color:#1565D8;
+    border-radius: 4px;
+    border:2px solid;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .signIn{
+    padding: 8px 16px;
+    font-family: 'Urbanist';
+    background-color: #ffffff;
+    color: #1565D8;
+    border-color:#1565D8;
+    border-radius: 4px;
+    border:2px solid;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .explore{
+    padding: 8px 16px;
+    font-family: 'Urbanist';
+    background-color: #1565D8;
+    color: #FFF;
+    border:none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
+/* 
+  .button:hover{
+    background: #2196F3;
+    color: white;
+  } */
+  
+
+  /* For buttons */
+.start:hover,
+.signIn:hover{
+  background-color: #1565D8; /* Change to a different color */
+  color: #ffffff; /* Text color when hovered */
+}
+
+/* For links within .nav-links */
+.nav-links a:hover {
+  color: #1565D8; /* Change to a different color */
+}
+
+.explore:hover{
+  color: #1565D8; /* Change to a different color */
+  background-color: #ffffff; /* Text color when hovered */
+  border-color:#1565D8;
+  /* border-radius: 4px; */
+  border:1px solid;
+}
+/* App.css */
+.features {
+  /* position: relative;  */
+  width: 100%;
+  background-color: #ffffff; /* Text color when hovered */
+  height: 100vh; /* Set your preferred height */
+  background-image: url("/IMG_6882.png"); /* Use 'url()' for specifying the image path */
+  background-size: 103.9%;
+  background-position:  top;
+  /* z-index: -1; */
+  /* Other styles */
+}
+
+.waves{
+  background-color:white;
+}
