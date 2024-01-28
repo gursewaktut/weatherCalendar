@@ -8,6 +8,7 @@ import Image from 'next/image';
 import './App.css';
 import Link from 'next/link';
 
+
 //type ValuePiece = Date | null;
 
 //type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -100,6 +101,7 @@ function App() {
       
     </div>
  );
+
 }
 
 export default App;    
