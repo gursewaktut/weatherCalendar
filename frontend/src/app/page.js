@@ -73,7 +73,7 @@ function App() {
           <button className="explore">Explore all features</button>
           <button className="start">Get Started</button>
         </div>
-        <div className="container" style={{ marginRight: '-10%' }}>
+        <div className="container" style={{ marginRight: '-10%', marginTop: '5%'}}>
           <Image src="/image-3.png" alt="Calendar" width={900} height={900} />
         </div>
       </header>
