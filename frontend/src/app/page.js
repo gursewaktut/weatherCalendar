@@ -68,8 +68,8 @@ function App() {
     </header> */}
         <header className="App-header">
         <div className="header-content">
-          <h2>The weather scheduling for you</h2>
-          <p>Experience the freedom of planning that adapts to the weather conditions, keeping you one step ahead.</p>
+          <h2 className ="home-title">The weather scheduling for you</h2>
+          <p class = "tag-title">Experience the freedom of planning that adapts to the weather conditions, keeping you one step ahead.</p>
           <button className="explore">Explore all features</button>
           <button className="start">Get Started</button>
         </div>
@@ -90,7 +90,7 @@ function App() {
       </section>
       <section class="waves">
         <svg  width="100%" height="263%" viewBox="0 0 2160 263" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path id="Wave" fill-rule="evenodd" clip-rule="evenodd" d="M2160 262.5H0V0C360 80 720 120 1080 120C1440 120 1800 80 2160 0V262.5Z" fill="white"/>
+          <path id="Wave" fill-rule="evenodd" clip-rule="evenodd" d="M2160 262.5H0V0C360 80 720 120 1080 120C1440 120 1800 80 2160 0V262.5Z" fill="white"/>
         </svg>
       </section>
 
