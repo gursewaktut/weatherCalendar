@@ -4,10 +4,13 @@ import Calendar from 'react-calendar';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from './Calendar.css';
+import styles from './calendar.module.css';
 
 function CalendarComponent() {
   const [value, onChange] = useState(new Date());
+  const apiKey = "0322d829d5964399979214551242301";
+
+  const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=vancouver&days=10&aqi=no&alerts=no`;
   return (
     <main className={styles.main}>
 
