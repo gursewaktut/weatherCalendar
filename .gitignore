@@ -9,4 +9,5 @@ backend/__pycache__/*
 backend/__pycache__
 backend/re
 backend/sys
+backend/wella/__pycache__
 
